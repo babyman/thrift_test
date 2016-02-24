@@ -30,3 +30,5 @@ object TestClassService { self =>
 
 Scrooge should generate a case class (see https://twitter.github.io/scrooge/Finagle.html#creating-a-server) to allow 
 service methods to be decorated with filters.
+
+It looks like the test for scala version here (https://github.com/twitter/scrooge/commit/7a12bf6fbf4cc7d282314fff8e77234263a32a57) is causing the issue here though why it would be returning 2.10 I'm not sure.
